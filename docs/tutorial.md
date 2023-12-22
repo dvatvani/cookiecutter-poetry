@@ -76,7 +76,6 @@ just setup-project
 
 ## Step 6: Activate your environment
 
-
 Activate the `poetry` environment by running:
 
 ```bash
