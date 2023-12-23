@@ -23,7 +23,7 @@ git remote add origin git@github.com:{{cookiecutter.author_github_handle}}/{{coo
 git push -u origin main
 ```
 
-Finally, install the environment and the pre-commit hooks with
+Finally, install the environment and the pre-commit hooks with:
 
 ```bash
 just install
