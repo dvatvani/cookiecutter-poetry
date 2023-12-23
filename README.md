@@ -26,6 +26,7 @@ This is a modern Cookiecutter template that can be used to initiate a Python pro
 This is a fork of [fpgmaas' project](https://github.com/fpgmaas/cookiecutter-poetry) with the same name. The key changes implemented in this project compared to the original are:
 
 - Use of justfile instead of Makefile to streamline common dev tasks
+- Projects created with this template use the [src layout](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/) rather than the flat layout used in the original project.
 
 ---
 
