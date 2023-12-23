@@ -10,10 +10,10 @@
 
 ---
 
-[![Release](https://img.shields.io/github/v/release/fpgmaas/cookiecutter-poetry)](https://pypi.org/project/cookiecutter-poetry/)
-[![Build status](https://img.shields.io/github/actions/workflow/status/fpgmaas/cookiecutter-poetry/main.yml?branch=main)](https://github.com/fpgmaas/cookiecutter-poetry/actions/workflows/main.yml?query=branch%3Amain)
+[![Release](https://img.shields.io/github/v/release/dvatvani/cookiecutter-poetry)](https://pypi.org/project/cookiecutter-poetry/)
+[![Build status](https://img.shields.io/github/actions/workflow/status/dvatvani/cookiecutter-poetry/main.yml?branch=main)](https://github.com/dvatvani/cookiecutter-poetry/actions/workflows/main.yml?query=branch%3Amain)
 [![Supported Python versions](https://img.shields.io/pypi/pyversions/cookiecutter-poetry)](https://pypi.org/project/cookiecutter-poetry/)
-[![License](https://img.shields.io/github/license/fpgmaas/cookiecutter-poetry)](https://img.shields.io/github/license/fpgmaas/cookiecutter-poetry)
+[![License](https://img.shields.io/github/license/dvatvani/cookiecutter-poetry)](https://img.shields.io/github/license/dvatvani/cookiecutter-poetry)
 
 This is a modern Cookiecutter template that can be used to initiate a Python project with all the necessary tools for development, testing, and deployment. It supports the following features:
 
@@ -28,7 +28,7 @@ This is a modern Cookiecutter template that can be used to initiate a Python pro
 - Containerization with [Docker](https://www.docker.com/)
 - Development environment with [VSCode devcontainers](https://code.visualstudio.com/docs/devcontainers/containers)
 
-An example of a repository generated with this package can be found [here](https://github.com/fpgmaas/cookiecutter-poetry-example).
+An example of a repository generated with this package can be found [here](https://github.com/dvatvani/cookiecutter-poetry-example).
 
 ## Quickstart
 
@@ -46,12 +46,6 @@ Create a repository on GitHub, and then run the following commands, replacing `<
 ```bash
 cd <project_name>
 just setup-project
-```
-
-Finally, install the environment and the pre-commit hooks with
-
-```bash
-just install
 ```
 
 You are now ready to start development on your project! The CI/CD

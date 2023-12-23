@@ -1,11 +1,11 @@
 site_name: cookiecutter-poetry
-repo_url: https://github.com/fpgmaas/cookiecutter-poetry
-site_url: https://fpgmaas.github.io/cookiecutter-poetry
+repo_url: https://github.com/dvatvani/cookiecutter-poetry
+site_url: https://dvatvani.github.io/cookiecutter-poetry
 site_description: A cookiecutter template for Python projects that use Poetry for its dependency management
-site_author: Florian Maas
+site_author: Dinesh Vatvani
 edit_uri: edit/main/docs/
-repo_name: fpgmaas/cookiecutter-poetry
-copyright: Maintained by <a href="https://fpgmaas.com">Florian</a>.
+repo_name: dvatvani/cookiecutter-poetry
+copyright: Maintained by <a href="https://dvatvani.com">Dinesh Vatvani</a>.
 
 nav:
   - Home: index.md
@@ -50,9 +50,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/fpgmaas/cookiecutter-poetry
-    - icon: fontawesome/brands/python
-      link: https://pypi.org/project/cookiecutter-poetry/
+      link: https://github.com/dvatvani/cookiecutter-poetry
 markdown_extensions:
   - toc:
       permalink: true
