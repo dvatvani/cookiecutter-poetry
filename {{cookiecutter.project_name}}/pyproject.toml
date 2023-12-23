@@ -111,4 +111,4 @@ source = ["{{cookiecutter.project_slug}}"]
 "tests/*" = ["S101"]
 
 [tool.deptry]
-extend_exclude = ["build_scripts"]
+extend_exclude = ["docs_build_scripts"]
