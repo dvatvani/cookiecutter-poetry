@@ -14,8 +14,8 @@ bake-and-test-deploy:
 	@rm -rf cookiecutter-poetry-example || true
 	@cookiecutter --no-input . --overwrite-if-exists \
 		author="Florian Maas" \
-		email="fpgmaas@gmail.com" \
-		github_author_handle=fpgmaas \
+		email="test@gmail.com" \
+		github_author_handle=dvatvani \
 		project_name=cookiecutter-poetry-example \
 		project_slug=cookiecutter_poetry_example
 	@cd cookiecutter-poetry-example; poetry install && \
@@ -27,7 +27,7 @@ bake-and-test-deploy:
 		poetry run pre-commit run -a || true && \
 		git add . && \
 		git commit -m "init commit" && \
-		git remote add origin git@github.com:fpgmaas/cookiecutter-poetry-example.git && \
+		git remote add origin git@github.com:dvatvani/cookiecutter-poetry-example.git && \
 		git push -f origin main
 
 
@@ -61,11 +61,11 @@ build: clean-build
 	@poetry build
 
 # clean build artifacts
-clean-build: #
+clean-build:
 	@rm -rf dist
 
 # publish a release to pypi.
-publish: #
+publish:
 	@echo "🚀 Publishing: Dry run."
 	@poetry config pypi-token.pypi $(PYPI_TOKEN)
 	@poetry publish --dry-run
