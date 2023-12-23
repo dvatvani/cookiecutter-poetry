@@ -27,6 +27,7 @@ This is a fork of [fpgmaas' project](https://github.com/fpgmaas/cookiecutter-poe
 
 - Use of justfile instead of Makefile to streamline common dev tasks
 - Projects created with this template use the [src layout](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/) rather than the flat layout used in the original project.
+- Includes fully automated API reference docs generation from Google-style docstrings in the code.
 
 ---
 
