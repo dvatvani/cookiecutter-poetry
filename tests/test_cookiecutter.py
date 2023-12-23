@@ -42,6 +42,7 @@ def test_using_pytest(cookies, tmp_path):
         with run_within_dir(str(result.project_path)):
             assert subprocess.check_call(shlex.split("poetry install --no-interaction")) == 0
             assert subprocess.check_call(shlex.split("just test")) == 0
+            assert subprocess.check_call(shlex.split("just docs-test")) == 0
 
 
 def test_devcontainer(cookies, tmp_path):

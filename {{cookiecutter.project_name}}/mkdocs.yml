@@ -9,9 +9,14 @@ copyright: Maintained by <a href="https://{{cookiecutter.author_github_handle}}.
 
 nav:
   - Home: index.md
-  - Modules: modules.md
+  - Code Reference: reference/
 plugins:
   - search
+  - gen-files:
+      scripts:
+        - docs_build_scripts/gen_ref_pages.py
+  - literate-nav:
+      nav_file: SUMMARY.md
   - mkdocstrings:
       handlers:
         python:
