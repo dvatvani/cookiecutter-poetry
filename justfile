@@ -13,7 +13,7 @@ bake-with-inputs:
 bake-and-test-deploy:
 	@rm -rf cookiecutter-poetry-example || true
 	@cookiecutter --no-input . --overwrite-if-exists \
-		author="Florian Maas" \
+		author="Dinesh Vatvani" \
 		email="test@gmail.com" \
 		github_author_handle=dvatvani \
 		project_name=cookiecutter-poetry-example \
